@@ -1,0 +1,9 @@
+{
+  "name": "indiastartupradar-static-tools",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "node tests/calculators.test.js && node tests/calculators-phase2.test.js && node tests/calculators-phase3.test.js && node tests/calculators-phase4.test.js && node tests/calculators-phase5.test.js",
+    "generate:tools": "node scripts/generate-tools.mjs && node scripts/generate-tools-phase2.mjs && node scripts/generate-tools-phase3.mjs && node scripts/generate-tools-phase4.mjs && node scripts/generate-tools-phase5.mjs"
+  }
+}
